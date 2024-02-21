@@ -1,0 +1,482 @@
+
+
+
+
+.header {
+    width: 100%;
+    height: 170px;
+ background-color: #f0f0f0;
+
+}
+
+.fast-head {
+    width: 100%;
+    height: 60px;
+    background-color: #f0f0f0;
+}
+.fast-head-inpo {
+ display: flex;
+ width: 30%;
+ background-color: #f0f0f0;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.fast-head-inpo i  {
+font-size: 1.5rem;
+background-color: rgb(235, 230, 230);
+width: 40px;
+height: 40px;
+border-radius: 50px;
+padding-left: 6px;
+padding-top: 7px;
+}
+.fast-head-logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.fast-head-logo:hover {
+    color: blue;
+
+}
+.header > ul > li 
+{
+    display: inline-block;
+}
+#olx-pading {
+    padding-top: 10px;
+}
+
+.olx {
+    font-size: 50px;
+     padding-top: 10px;
+    font-weight: bold;
+    
+}
+.olx {
+margin-top: 10px;
+}
+.select  {
+           width: 310px;
+           height: 72px;
+           border: 4px solid black;
+           padding: 10px;
+           font-size: 1rem;
+           border-radius: 10px;
+           font-weight: bold;
+}
+
+.search > input {
+    width: 550px;
+    height: 72px;
+    border: 4px solid black;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    padding-left: 1rem;
+}
+.sub > input {
+                width: 100px;
+                height: 55px;
+                border: none;
+                font-size: 2rem;
+                color: black;
+                text-decoration: underline;
+}
+.sell > input {
+    width: 110px;
+    height: 60px;
+    font-size: 2rem;
+    border-top: 4px solid blue;
+    border-bottom: 4px solid green;
+    border-left: 4px solid yellow;
+    border-radius: 30px;
+}
+ul {
+    padding-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+ul > li {
+    padding-left: 30px;
+}
+ .scond-manu   {
+    width: 100%;
+    height: 80px;
+    font-size: 1.5rem;
+ }
+.scond-manu ul li {
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+      padding-bottom: 30px;
+} 
+.all-cate 
+{
+    font-size: 0px;
+    color: black;
+    font-weight: bold;
+}
+.tr-row img {
+
+    width: 100px;
+}
+table {
+    width: 100%;
+    text-align: center;
+}
+.add {
+    margin-left: 300px;
+    padding-top: 40px;
+}
+.fast-end{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end-section {
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+.end-lift {
+    width: 55%;
+    height: 250px;
+    background-image: url("assets/end1.webp");
+     background-size: cover;
+}
+.end-right {
+    width: 40%;
+    height: 200px;
+    display: flex;
+    align-items: start;
+    margin-top: 20px;
+    border-left: 3px solid gray;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+}
+.end-icon {
+    display: flex;
+
+}
+.end-right img {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 140px;
+}
+.last-end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-top: 2px solid rgb(131, 127, 127);
+    height: 205px;
+    background-color: #ebeeef;
+}
+.last-end-lift {
+    width: 65%;
+    height: 190px;
+    background-color: #ebeeef;
+   align-items: center;
+    display: flex;
+    
+    justify-content: space-around;
+}
+.last-end-box {
+    width:24%;
+    background-color: #ebeeef;
+    height: 200px;
+}
+.last-end-box li {
+  
+    list-style: none;
+}
+.last-end-box ul, h6 {
+    margin-top: 20px;
+}
+.last-end-box h6 {
+    margin-left:  20px;
+    text-align: start;
+}
+.last-end-right {
+    width: 34%;
+    height: 200px;
+    background-color: #ebeeef;
+}
+.last-end-right h6 {
+    margin-left: 13px;
+}
+.last-end-right-icon img {
+    
+    margin-left: 10px;
+    width: 39px;
+}
+.last-end-right-img {
+    display: flex;
+    margin-top: 30px;
+}
+.last-end-right-img img {
+    width: 25%;
+    margin-left: 10px;
+}
+.copy-right {
+    width: 100%;
+    height: 60px;
+    text-align: right;
+    background-color: #002f34;
+    color: white;
+}
+.copy-right p {
+    margin-right: 50px;
+    padding-top: 20px;
+}
+@media only screen and (max-width: 1250px) {
+
+    
+
+    .add {
+        margin-left: 280px;
+        padding-top: 37px;
+    }
+
+    .header {
+        width: 100%;
+        height: 150px;
+    }
+    .header > ul > li 
+    {
+        display: inline-block;
+    }
+    #olx-pading {
+        padding-top: 20px;
+    }
+    
+    .olx {
+        font-size: 40px;
+         padding-top: 5px;
+        font-weight: bold;
+    }
+    .select  {
+               width: 130px;
+               height: 30px;
+    }
+    .search > input {
+        width: 410px;
+        height: 30px;
+    }
+    .sub > input {
+                    width: 80px;
+                    height: 30px;
+    }
+    .sell > input {
+        width: 80px;
+        height: 30px;
+    }
+    ul {
+        padding-top: 30px;
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+    ul > li {
+        padding-left: 20px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 1150px) {
+
+      
+    .add {
+        margin-left: 150px;
+        padding-top: 20px;
+    }
+    
+
+}
+@media only screen and (max-width: 965px) {
+
+      
+    .add {
+        margin-left: 120px;
+        padding-top: 16px;
+    }
+    
+
+}
+
+
+
+
+@media only screen and (max-width: 916px) {
+
+      
+    .add {
+        margin-left: 70px;
+        padding-top: 12px;
+    }
+    
+
+}
+@media only screen and (max-width: 915px) {
+
+      
+    .add img {
+        width: 500px;
+        margin-left: 50px;
+        padding-top: 20px;
+    }
+    
+
+}
+@media only screen and (max-width: 800px) {
+
+      
+    .add {
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    
+
+}
+@media only screen and (max-width: 730px) {
+
+      
+    .add {
+      width: 300px;
+      margin-right: 10px;
+    }
+
+    .scond-manu {
+        font-size: 30px;
+    
+        
+    }
+    #row-hid {
+        display: none;
+    }
+    
+
+}
+
+@media only screen and (max-width: 768px) {
+    table {
+        width: 100px;
+    }
+}
+
+
+  @media only screen and (max-width: 916px) {
+
+
+    
+.add {
+    margin-left: 180px;
+    padding-top: 25px;
+}
+    .header {
+        width: 100%;
+        height: 80px;
+
+    }
+    .header > ul > li 
+    {
+        display: inline-block;
+    }
+    #olx-pading {
+        padding-top: 0px;
+    }
+    
+    .olx {
+        font-size: 30px;
+         padding-top: 0px;
+        font-weight: bold;
+    }
+    .select  {
+               width: 120px;
+               height: 30px;
+    }
+    .search > input {
+        width: 410px;
+        height: 30px;
+    }
+    .sub > input {
+                    width: 60px;
+                    height: 40px;
+    }
+    .sell > input {
+        width: 60px;
+        height: 40px;
+    }
+    ul {
+        padding-top:10px;
+        margin-left: 2px;
+        padding-left: 2px;
+    }
+    ul > li {
+        padding-left: 6px;
+    }
+    
+  }
+  @media only screen and (max-width: 760px) {
+
+    .search > input {
+        width: 350px;
+        height: 30px;
+    }
+    
+
+}
+  
+
+@media only screen and (max-width: 600px) {
+
+.header > ul > li 
+{
+    display: inline-block;
+}
+#olx-pading {
+    padding-top: 0px;
+}
+
+.olx {
+    font-size: 20px;
+     padding-top: 0px;
+    font-weight: bold;
+}
+.select  {
+           width: 100px;
+           height: 23px;
+}
+.search > input {
+    width: 300px;
+    height: 23px;
+}
+.sub > input {
+                width: 60px;
+                height: 40px;
+}
+.sell > input {
+    width: 60px;
+    height: 40px;
+}
+ul {
+    padding-top:10px;
+    margin-left: 2px;
+    padding-left: 2px;
+}
+ul > li {
+    padding-left: 6px;
+}
+
+
+}
+  
+
+
+@media only screen and (max-width: 976px) 
+{
+      #row-hid{
+        display: none;
+      }
+}
