@@ -1,2 +1,2 @@
 # olx not responsive
-#https://app.netlify./web-olx
+# https://web-olx.netlify.app/
